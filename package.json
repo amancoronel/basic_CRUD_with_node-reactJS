@@ -1,0 +1,44 @@
+{
+  "name": "basic_rest_api_with_reactjs",
+  "version": "1.0.0",
+  "description": "Basic api server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "watch": "webpack --watch --mode development --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "Prince Amante Coronel",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "connect-redis": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "formik": "^2.1.5",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.9.22",
+    "net": "^1.0.2",
+    "pug": "^3.0.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.1.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "redis": "^3.0.2",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.3.0",
+    "html-webpack-pug-plugin": "^2.0.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
